@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+
+{% block title %}FilipiLingo – Learn Filipino!{% endblock %}
+
+{% block content %}
+<section class="hero">
+  <div class="hero-text">
+    <h1 class="hero-title">Learn Filipino! 🌟</h1>
+    <p class="hero-sub">Choose a subject and start your lesson.</p>
+  </div>
+
+  <div class="daily-card">
+    <span class="daily-icon">📚</span>
+    <div>
+      <div class="daily-title">Lessons today</div>
+      <div class="daily-count" id="lessons-today">{{ lessons_today }}</div>
+    </div>
+    <span class="daily-badge">No limits! 🚀</span>
+  </div>
+</section>
+
+<section class="topics-section">
+  <h2 class="section-title">Choose a Subject</h2>
+
+  <div class="accordion" id="subject-accordion">
+    {% for subject_group in subject_groups %}
+    <div class="accordion-item" id="subject-{{ subject_group.key }}">
+      <div class="accordion-header" onclick="toggleAccordion('subject-{{ subject_group.key }}')">
+        <div class="accordion-header-left">
+          <span class="accordion-grade-badge">{{ subject_group.label }}</span>
+          <span class="accordion-count">{{ subject_group.topics|length }} lessons</span>
+        </div>
+        <span class="accordion-chevron">▼</span>
+      </div>
+
+      <div class="accordion-body">
+        <div class="accordion-topics-grid">
+          {% for topic in subject_group.topics %}
+          <a href="/lesson/{{ topic.id }}" class="topic-card {% if topic.completed %}completed{% endif %}">
+            <div class="topic-icon">{{ topic.icon }}</div>
+            <div class="topic-body">
+              <div class="topic-title">{{ topic.title }}</div>
+              <div class="topic-english">{{ topic.description }}</div>
+              <div class="topic-meta">
+                <span class="topic-questions">{{ topic.question_count }} questions</span>
+                {% if topic.completed %}
+                <span class="topic-done-badge">✅ Done</span>
+                {% else %}
+                <span class="topic-start-badge">▶ Start</span>
+                {% endif %}
+              </div>
+            </div>
+          </a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  function toggleAccordion(id) {
+    const item = document.getElementById(id);
+    item.classList.toggle('open');
+  }
+</script>
+{% endblock %}

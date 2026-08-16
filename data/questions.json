@@ -1,0 +1,99 @@
+{
+  "questions": {
+    "makabansa-1": [
+      {
+        "id": 1,
+        "type": "multiple_choice",
+        "question": "Sino ang tinatawag na 'Ama ng Wikang Pambansa'?",
+        "answer": "Manuel L. Quezon",
+        "choices": [
+          "Manuel L. Quezon",
+          "Jose Rizal",
+          "Andres Bonifacio",
+          "Emilio Aguinaldo"
+        ],
+        "hint": "Siya ang nagtatag ng Surian ng Wikang Pambansa."
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "question": "Tama ba na ang Luneta Park ay isang mahalagang lugar sa Maynila?",
+        "answer": "True",
+        "choices": ["True", "False"],
+        "hint": "Ito ay isang kilalang makasaysayang parke sa ating bansa."
+      },
+      {
+        "id": 3,
+        "type": "fill_in_blanks",
+        "question": "Alin ang tawag sa lugar kung saan nagsimula ang ating kasaysayan bilang isang bansa?",
+        "answer": "Bahay ng mga Bayani",
+        "choices": [
+          "Bahay ng mga Bayani",
+          "Luneta Park",
+          "Mall of Asia",
+          "National Museum"
+        ],
+        "hint": "Ito ay isang mahalagang lugar na may kinalaman sa ating mga bayani."
+      },
+      {
+        "id": 4,
+        "type": "image_identification",
+        "question": "Alin sa mga sumusunod ang larawan ni Jose Rizal?",
+        "answer": "Jose Rizal",
+        "choices": [
+          "Jose Rizal",
+          "Andres Bonifacio",
+          "Apolinario Mabini",
+          "Juan Luna"
+        ],
+        "hint": "Siya ang pambansang bayani ng Pilipinas.",
+        "image": "https://example.com/images/jose-rizal.jpg"
+      }
+    ],
+    "science-1": [
+      {
+        "id": 1,
+        "type": "multiple_choice",
+        "question": "Which part of the plant absorbs water and minerals?",
+        "answer": "Roots",
+        "choices": [
+          "Roots",
+          "Leaves",
+          "Flower",
+          "Fruit"
+        ],
+        "hint": "It grows underground and helps the plant get nutrients."
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "question": "True or false: Leaves make food for the plant.",
+        "answer": "True",
+        "choices": ["True", "False"],
+        "hint": "This process is called photosynthesis."
+      },
+      {
+        "id": 3,
+        "type": "fill_in_blanks",
+        "question": "The ________ later helps form the fruit.",
+        "answer": "Flower",
+        "choices": [
+          "Flower",
+          "Roots",
+          "Stem",
+          "Leaf"
+        ],
+        "hint": "This is the colorful part of a plant that helps in reproduction."
+      },
+      {
+        "id": 4,
+        "type": "image_identification",
+        "question": "What part of the plant is shown in the picture?",
+        "answer": "Flower",
+        "choices": ["Flower", "Roots", "Leaf", "Fruit"],
+        "hint": "It is often colorful and attracts pollinators.",
+        "image": "/static/images/flower.jpg"
+      }
+    ]
+  }
+}

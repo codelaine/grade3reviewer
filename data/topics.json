@@ -1,0 +1,18 @@
+{
+  "topics": [
+    {
+      "id": "makabansa-1",
+      "subject": "makabansa",
+      "title": "Mahalagang tao, lugar at pangyayari",
+      "icon": "🏛️",
+      "description": "Tuklasin ang mga mahalagang tao, lugar, at pangyayaring may kaugnayan sa ating bansa."
+    },
+    {
+      "id": "science-1",
+      "subject": "science",
+      "title": "Parts of a Plant",
+      "icon": "🌿",
+      "description": "Kilalanin ang mga bahagi ng halaman at ang tungkulin ng bawat isa."
+    }
+  ]
+}
