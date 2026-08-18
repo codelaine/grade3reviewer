@@ -58,10 +58,10 @@ function renderQuestion(idx) {
   hintText.textContent = q.hint || '';
 
   // Header
-  qNumber.textContent   = `Tanong ${idx + 1} / ${QUESTIONS.length}`;
+  qNumber.textContent   = `Question ${idx + 1} / ${QUESTIONS.length}`;
   qTypeBadge.textContent = q.type === 'true_false'
-    ? 'Tama o Mali?'
-    : 'Piliin ang tamang sagot';
+    ? 'True or False?'
+    : 'Choose the correct answer';
   qText.textContent = q.question;
 
   // Progress bar
@@ -118,14 +118,14 @@ function handleAnswer(btn, selected, q) {
     feedbackBar.className = 'feedback-bar correct-fb';
     feedbackIcon.textContent = '🎉';
     feedbackMsg.textContent  = getPositiveFeedback();
-    showToast('🎉 Tama! Napakagaling!');
+    showToast('🎉 Correct! Excellent!');
   } else {
     heartsLeft--;
     updateHearts();
     feedbackBar.className = 'feedback-bar wrong-fb';
     feedbackIcon.textContent = '💪';
-    feedbackMsg.textContent  = `Ang tamang sagot ay: "${q.answer}" — Huwag susuko!`;
-    showToast(`💪 Ang tamang sagot ay: ${q.answer}`);
+    feedbackMsg.textContent  = `The correct answer is: "${q.answer}" — Keep going!`;
+    showToast(`💪 The correct answer is: ${q.answer}`);
   }
   feedbackBar.classList.remove('hidden');
   nextBtn.classList.remove('hidden');
@@ -177,16 +177,16 @@ async function finishLesson() {
     // Pick celebration content based on score
     let emoji, title, msg;
     if (pct >= 0.9) {
-      emoji = '🏆'; title = 'Napakagaling!';
-      msg   = `${correctCount} tama sa ${QUESTIONS.length}! Ikaw ay isang superstar! 🌟`;
+      emoji = '🏆'; title = 'Excellent!';
+      msg   = `${correctCount} out of ${QUESTIONS.length} correct! You are a star! 🌟`;
       burstConfetti(50);
     } else if (pct >= 0.6) {
-      emoji = '😊'; title = 'Magaling!';
-      msg   = `${correctCount} tama sa ${QUESTIONS.length}! Patuloy magsanay! 💪`;
+      emoji = '😊'; title = 'Great job!';
+      msg   = `${correctCount} out of ${QUESTIONS.length} correct! Keep practicing! 💪`;
       burstConfetti(25);
     } else {
-      emoji = '💪'; title = 'Huwag susuko!';
-      msg   = `${correctCount} tama sa ${QUESTIONS.length}. Subukan muli para mas mapabuti pa! 🔁`;
+      emoji = '💪'; title = 'Keep going!';
+      msg   = `${correctCount} out of ${QUESTIONS.length} correct. Try again to improve! 🔁`;
     }
 
     // Update nav counters
@@ -209,14 +209,14 @@ async function finishLesson() {
 // ── Positive feedback phrases ──────────────────────────────────
 function getPositiveFeedback() {
   const phrases = [
-    'Tama! Napakagaling mo! 🌟',
-    'Excellent! Patuloy na! 🚀',
-    'Wow, tama ka! Super! ⭐',
-    'Kahanga-hanga! Tama! 🎯',
-    'Ang galing-galing mo! 💪',
-    'Tama! Ikaw ay henyo! 🧠',
-    'Bravo! Tama ang sagot! 🎉',
-    'Napakahusay! Tama! 🏅',
+    'Correct! Excellent work! 🌟',
+    'Amazing! Keep it up! 🚀',
+    'Wow, you got it! Awesome! ⭐',
+    'Fantastic! You nailed it! 🎯',
+    'You are doing great! 💪',
+    'Correct! You are a genius! 🧠',
+    'Bravo! That was right! 🎉',
+    'Outstanding! Great job! 🏅',
   ];
   return phrases[Math.floor(Math.random() * phrases.length)];
 }

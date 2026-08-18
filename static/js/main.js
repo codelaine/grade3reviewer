@@ -22,7 +22,7 @@ function showCelebration({ emoji, title, msg, stars, onClose }) {
   const btn     = document.getElementById('celebration-btn');
 
   eEl.textContent = emoji || '🎉';
-  tEl.textContent = title || 'Napakagaling!';
+  tEl.textContent = title || 'Excellent!';
   mEl.textContent = msg   || '';
 
   // Render stars (out of 3)

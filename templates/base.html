@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{% block title %}FilipiLingo 🌟{% endblock %}</title>
+  <title>{% block title %}Grade 3 Reviewer{% endblock %}</title>
   <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
@@ -12,15 +12,15 @@
   <!-- Top Navigation Bar -->
   <nav class="navbar">
     <a href="/" class="nav-brand">
-      <span class="brand-icon">🇵🇭</span>
-      <span class="brand-name">FilipiLingo</span>
+      <span class="brand-icon">📘</span>
+      <span class="brand-name">Grade 3 Reviewer</span>
     </a>
     <div class="nav-stats">
       <div class="stat-pill streak-pill" id="nav-streak">
         <span class="stat-icon">🔥</span>
         <!-- span class="stat-value" id="streak-count">{{ streak }}</span -->
         <span class="stat-value" id="streak-count">0</span>
-        <span class="stat-label">araw</span>
+        <span class="stat-label">days</span>
       </div>
       <div class="stat-pill star-pill">
         <span class="stat-icon">⭐</span>
@@ -39,10 +39,10 @@
   <div id="celebration-overlay" class="celebration-overlay hidden">
     <div class="celebration-box">
       <div class="celebration-emoji" id="celebration-emoji">🎉</div>
-      <h2 class="celebration-title" id="celebration-title">Napakagaling!</h2>
+      <h2 class="celebration-title" id="celebration-title">Excellent!</h2>
       <p class="celebration-msg" id="celebration-msg"></p>
       <div class="stars-display" id="stars-display"></div>
-      <button class="btn btn-primary btn-lg" id="celebration-btn">Magpatuloy</button>
+      <button class="btn btn-primary btn-lg" id="celebration-btn">Continue</button>
     </div>
   </div>
 

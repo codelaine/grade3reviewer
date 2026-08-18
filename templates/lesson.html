@@ -1,11 +1,11 @@
 {% extends "base.html" %}
 
-{% block title %}{{ topic.title }} – FilipiLingo{% endblock %}
+{% block title %}{{ topic.title }} – Grade 3 Reviewer{% endblock %}
 
 {% block content %}
 <!-- Lesson Header -->
 <div class="lesson-header">
-  <a href="/" class="back-btn">← Bumalik</a>
+  <a href="/" class="back-btn">← Back</a>
   <div class="lesson-topic-info">
     <span class="lesson-icon">{{ topic.icon }}</span>
     <div>
@@ -29,7 +29,7 @@
     <span class="heart" id="h2">❤️</span>
     <span class="heart" id="h3">❤️</span>
   </div>
-  <button class="btn btn-primary btn-next hidden" id="next-btn">Susunod →</button>
+  <button class="btn btn-primary btn-next hidden" id="next-btn">Next →</button>
 </div>
 
 <!-- Quiz Area -->
@@ -37,22 +37,22 @@
   <!-- Intro Card -->
   <div class="quiz-card intro-card" id="intro-card">
     <div class="intro-icon">{{ topic.icon }}</div>
-    <h2 class="intro-heading">Handa ka na ba?</h2>
+    <h2 class="intro-heading">Ready to begin?</h2>
     <p class="intro-sub">{{ topic.description }}</p>
-    <p class="intro-count"><strong>{{ questions|length }} tanong</strong> ang naghihintay sa iyo!</p>
-    <button class="btn btn-primary btn-xl" id="start-btn">Magsimula! 🚀</button>
+    <p class="intro-count"><strong>{{ questions|length }} questions</strong> are waiting for you!</p>
+    <button class="btn btn-primary btn-xl" id="start-btn">Start! 🚀</button>
   </div>
 
   <!-- Question Card (hidden until started) -->
   <div class="quiz-card question-card hidden" id="question-card">
-    <div class="question-number" id="q-number">Tanong 1 / {{ questions|length }}</div>
-    <div class="question-type-badge" id="q-type-badge">Piliin ang tamang sagot</div>
+    <div class="question-number" id="q-number">Question 1 / {{ questions|length }}</div>
+    <div class="question-type-badge" id="q-type-badge">Choose the correct answer</div>
     
     <div class="question-image-wrap" id="question-image-wrap"></div>
     
     <p class="question-text" id="q-text"></p>
     <div class="hint-row">
-      <button class="hint-btn" id="hint-btn">💡 Pahiwatig</button>
+      <button class="hint-btn" id="hint-btn">💡 Hint</button>
       <span class="hint-text hidden" id="hint-text"></span>
     </div>
     <div class="choices-grid" id="choices-grid"></div>
