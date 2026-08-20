@@ -13,6 +13,14 @@
       "title": "Parts of a Plant",
       "icon": "🌿",
       "description": "Kilalanin ang mga bahagi ng halaman at ang tungkulin ng bawat isa."
+    },
+    {
+      "id": "science-3",
+      "subject": "science",
+      "title": "Sense Organs",
+      "icon": "🌿",
+      "description": "Kilalanin ang mga bahagi ng halaman at ang tungkulin ng bawat isa."
     }
+
   ]
 }

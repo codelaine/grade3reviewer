@@ -94,6 +94,33 @@
         "hint": "It is often colorful and attracts pollinators.",
         "image": "/static/images/flower.jpg"
       }
-    ]
+    ],
+    "science-3": [
+      {"id":1,"type":"multiple_choice","question":"Which sense organ helps us see the things around us?","answer":"Eyes","choices":["Eyes","Ears","Nose","Tongue"],"hint":"We use this organ to see colors, shapes, and objects."},
+      {"id":2,"type":"true_false","question":"True or false: Our ears help us hear sounds.","answer":"True","choices":["True","False"],"hint":"Ears allow us to listen to voices, music, and other sounds."},
+      {"id":3,"type":"multiple_choice","question":"Which sense organ helps us smell flowers and food?","answer":"Nose","choices":["Eyes","Nose","Ears","Skin"],"hint":"We use this organ to detect different smells."},
+      {"id":4,"type":"multiple_choice","question":"Which sense organ helps us taste food?","answer":"Tongue","choices":["Tongue","Nose","Eyes","Ears"],"hint":"This organ helps us recognize different flavors."},
+      {"id":5,"type":"multiple_choice","question":"Which sense organ helps us feel if something is hot, cold, rough, or smooth?","answer":"Skin","choices":["Skin","Eyes","Tongue","Nose"],"hint":"This organ covers and protects our whole body."},
+      {"id":6,"type":"true_false","question":"True or false: We use our eyes to hear sounds.","answer":"False","choices":["True","False"],"hint":"We use our ears to hear sounds."},
+      {"id":7,"type":"multiple_choice","question":"Which sense organ should you use to read a book?","answer":"Eyes","choices":["Eyes","Ears","Nose","Skin"],"hint":"Reading requires the sense of sight."},
+      {"id":8,"type":"multiple_choice","question":"Which sense organ helps you listen to your teacher?","answer":"Ears","choices":["Ears","Eyes","Nose","Tongue"],"hint":"Sound enters the body through this organ."},
+      {"id":9,"type":"true_false","question":"True or false: The nose helps us identify different smells.","answer":"True","choices":["True","False"],"hint":"Smelling is one of our five senses."},
+      {"id":10,"type":"multiple_choice","question":"Which sense organ helps you know that a lemon tastes sour?","answer":"Tongue","choices":["Tongue","Nose","Skin","Eyes"],"hint":"This organ helps us recognize flavors."},
+      {"id":11,"type":"multiple_choice","question":"Which sense organ helps you feel the softness of a pillow?","answer":"Skin","choices":["Skin","Eyes","Ears","Nose"],"hint":"The sense of touch allows us to feel textures."},
+      {"id":12,"type":"true_false","question":"True or false: The tongue is one of our sense organs.","answer":"True","choices":["True","False"],"hint":"The tongue helps us taste different flavors."},
+      {"id":13,"type":"multiple_choice","question":"Which sense helps you notice that a bell is ringing?","answer":"Hearing","choices":["Hearing","Sight","Smell","Taste"],"hint":"You use your ears for this sense."},
+      {"id":14,"type":"multiple_choice","question":"Which sense helps you know that a rose has a pleasant scent?","answer":"Smell","choices":["Smell","Sight","Hearing","Touch"],"hint":"You use your nose for this sense."},
+      {"id":15,"type":"true_false","question":"True or false: Skin helps protect our body while also helping us feel things.","answer":"True","choices":["True","False"],"hint":"Skin is the organ responsible for the sense of touch."},
+      {"id":16,"type":"multiple_choice","question":"Which sense helps you know that ice is cold when you touch it?","answer":"Touch","choices":["Touch","Sight","Hearing","Smell"],"hint":"Your skin detects temperature and texture."},
+      {"id":17,"type":"multiple_choice","question":"Which sense organ helps you see the colors of a rainbow?","answer":"Eyes","choices":["Eyes","Ears","Nose","Tongue"],"hint":"The eyes are responsible for the sense of sight."},
+      {"id":18,"type":"true_false","question":"True or false: We can use our nose to taste food.","answer":"False","choices":["True","False"],"hint":"The tongue helps us taste food."},
+      {"id":19,"type":"multiple_choice","question":"What should you do to protect your eyes from very bright sunlight?","answer":"Wear a hat or sunglasses","choices":["Wear a hat or sunglasses","Look directly at the sun","Rub your eyes","Keep your eyes open in bright light"],"hint":"Protecting your eyes from strong sunlight helps keep them safe."},
+      {"id":20,"type":"multiple_choice","question":"What should you do to take care of your ears?","answer":"Keep them clean and avoid very loud sounds","choices":["Keep them clean and avoid very loud sounds","Put sharp objects inside them","Listen to very loud music","Hit your ears"],"hint":"Gentle care and avoiding loud noises help protect hearing."},
+      {"id":21,"type":"true_false","question":"True or false: We should put sharp objects inside our ears to clean them.","answer":"False","choices":["True","False"],"hint":"Sharp objects can hurt the ear."},
+      {"id":22,"type":"multiple_choice","question":"Which sense organs work together when you eat a delicious meal?","answer":"Nose and tongue","choices":["Nose and tongue","Eyes and ears","Skin and ears","Eyes and skin"],"hint":"Taste and smell work together to help us enjoy food."},
+      {"id":23,"type":"multiple_choice","question":"Which sense helps you recognize the shape and color of a ball?","answer":"Sight","choices":["Sight","Hearing","Smell","Taste"],"hint":"Your eyes give you information about how things look."},
+      {"id":24,"type":"true_false","question":"True or false: Our five senses help us learn about and understand our surroundings.","answer":"True","choices":["True","False"],"hint":"Sight, hearing, smell, taste, and touch give us information about the world."},
+      {"id":25,"type":"multiple_choice","question":"How many main sense organs do we commonly learn about in Grade 3?","answer":"Five","choices":["Five","Three","Seven","Ten"],"hint":"They are the eyes, ears, nose, tongue, and skin."}
+      ]
   }
 }
