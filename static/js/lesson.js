@@ -116,16 +116,16 @@ function handleAnswer(btn, selected, q) {
   if (isCorrect) {
     correctCount++;
     feedbackBar.className = 'feedback-bar correct-fb';
-    feedbackIcon.textContent = '🎉';
+    feedbackIcon.textContent = '�';
     feedbackMsg.textContent  = getPositiveFeedback();
-    showToast('🎉 Correct! Excellent!');
+    showToast('🌟 Correct! Excellent!');
   } else {
     heartsLeft--;
     updateHearts();
     feedbackBar.className = 'feedback-bar wrong-fb';
-    feedbackIcon.textContent = '💪';
+    feedbackIcon.textContent = '🌱';
     feedbackMsg.textContent  = `The correct answer is: "${q.answer}" — Keep going!`;
-    showToast(`💪 The correct answer is: ${q.answer}`);
+    showToast(`🌱 The correct answer is: ${q.answer}`);
   }
   feedbackBar.classList.remove('hidden');
   nextBtn.classList.remove('hidden');
@@ -181,11 +181,11 @@ async function finishLesson() {
       msg   = `${correctCount} out of ${QUESTIONS.length} correct! You are a star! 🌟`;
       burstConfetti(50);
     } else if (pct >= 0.6) {
-      emoji = '😊'; title = 'Great job!';
-      msg   = `${correctCount} out of ${QUESTIONS.length} correct! Keep practicing! 💪`;
+      emoji = '🌼'; title = 'Great job!';
+      msg   = `${correctCount} out of ${QUESTIONS.length} correct! Keep practicing! 🌱`;
       burstConfetti(25);
     } else {
-      emoji = '💪'; title = 'Keep going!';
+      emoji = '🌿'; title = 'Keep going!';
       msg   = `${correctCount} out of ${QUESTIONS.length} correct. Try again to improve! 🔁`;
     }
 
@@ -210,13 +210,13 @@ async function finishLesson() {
 function getPositiveFeedback() {
   const phrases = [
     'Correct! Excellent work! 🌟',
-    'Amazing! Keep it up! 🚀',
+    'Amazing! Keep growing! 🌱',
     'Wow, you got it! Awesome! ⭐',
-    'Fantastic! You nailed it! 🎯',
-    'You are doing great! 💪',
-    'Correct! You are a genius! 🧠',
-    'Bravo! That was right! 🎉',
-    'Outstanding! Great job! 🏅',
+    'Fantastic! You nailed it! ✨',
+    'You are doing great! 🌿',
+    'Correct! You are a bright thinker! 🧠',
+    'Bravo! That was right! 🌼',
+    'Outstanding! Great job! 🏆',
   ];
   return phrases[Math.floor(Math.random() * phrases.length)];
 }
