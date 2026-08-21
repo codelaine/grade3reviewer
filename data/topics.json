@@ -1,26 +1,16 @@
 {
-  "topics": [
-    {
-      "id": "makabansa-1",
-      "subject": "makabansa",
-      "title": "Mahalagang tao, lugar at pangyayari",
-      "icon": "🏛️",
-      "description": "Tuklasin ang mga mahalagang tao, lugar, at pangyayaring may kaugnayan sa ating bansa."
-    },
-    {
-      "id": "science-1",
-      "subject": "science",
-      "title": "Parts of a Plant",
-      "icon": "🌿",
-      "description": "Kilalanin ang mga bahagi ng halaman at ang tungkulin ng bawat isa."
-    },
-    {
-      "id": "science-3",
-      "subject": "science",
-      "title": "Sense Organs",
-      "icon": "🌿",
-      "description": "Kilalanin ang mga bahagi ng halaman at ang tungkulin ng bawat isa."
-    }
-
-  ]
+  "topics": {
+    "Makabansa": [
+      { "id": "makabansa-1", "title": "Mahalagang tao, lugar at pangyayari", "icon": "🏛️", "description": "Tuklasin ang mga mahalagang tao, lugar, at pangyayaring may kaugnayan sa ating bansa." }
+    ],
+    "Science": [
+      { "id": "science-1", "title": "Science Process Skills", "icon": "🔍", "description": "Learn how scientists observe, compare, measure, and record information." },
+      { "id": "science-2", "title": "Science in Everyday Life", "icon": "🏠", "description": "Explore how science helps us understand and improve daily activities at home." },
+      { "id": "science-3", "title": "Physical Properties of Solid Materials", "icon": "🧱", "description": "Discover the different qualities of solid objects such as hardness, texture, and shape." },
+      { "id": "science-4", "title": "Changes in Materials", "icon": "♻️", "description": "Find out how materials can change through melting, freezing, bending, or burning." },
+      { "id": "science-5", "title": "Sense Organs", "icon": "👀", "description": "Identify the five sense organs and how each one helps us learn about the world." },
+      { "id": "science-6", "title": "Parts of a Plant", "icon": "🌿", "description": "Learn the different parts of a plant and the role each part plays in growth." },
+      { "id": "science-7", "title": "Needs of a Plant", "icon": "💧", "description": "Understand what plants need to survive, grow, and make their own food." }
+    ]
+  }
 }

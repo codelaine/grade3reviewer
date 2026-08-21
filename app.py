@@ -14,7 +14,13 @@ def load_json(filename):
         return json.load(f)
 
 
-TOPICS = load_json("topics.json")["topics"]
+topic_groups = load_json("topics.json")["topics"]
+TOPICS = [
+    {**topic, "subject": subject}
+    for subject, topics in topic_groups.items()
+    for topic in topics
+]
+
 QUESTIONS = load_json("questions.json")["questions"]
 
 

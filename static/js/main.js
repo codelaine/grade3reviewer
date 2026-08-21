@@ -51,7 +51,15 @@ function showCelebration({ emoji, title, msg, stars, onClose }) {
 
 // ── Confetti burst (pure CSS / JS, no library) ────────────────
 function burstConfetti(count = 36) {
-  const colors = ['#FF6B6B','#FFD93D','#6BCB77','#4ECDC4','#845EC2','#FF9A3C','#FF6FA8'];
+  const colors = [
+    '#2563EB',
+    '#60A5FA',
+    '#38BDF8',
+    '#818CF8',
+    '#0284C7',
+    '#0EA5E9',
+    '#93C5FD'
+  ];
   const container = document.createElement('div');
   container.style.cssText = 'position:fixed;inset:0;pointer-events:none;z-index:999;overflow:hidden;';
   document.body.appendChild(container);
