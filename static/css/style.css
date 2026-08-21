@@ -730,3 +730,21 @@ a { text-decoration: none; color: inherit; }
 @media (max-width: 380px) {
   .topics-grid { grid-template-columns: 1fr; }
 }
+
+
+/* Question Image */
+.question-image-wrap {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.question-image {
+  display: block;
+  width: 100%;
+  max-width: 520px;
+  max-height: 320px;
+  object-fit: contain;
+  margin: 0 auto;
+  border-radius: var(--radius-md);
+  border: 2px solid var(--border);
+}

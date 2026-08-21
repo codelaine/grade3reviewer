@@ -64,6 +64,18 @@ function renderQuestion(idx) {
     : 'Choose the correct answer';
   qText.textContent = q.question;
 
+  // Image (if applicable)
+  const questionImageWrap = document.getElementById('question-image-wrap');
+  questionImageWrap.innerHTML = '';
+
+  if (q.image) {
+    const image = document.createElement('img');
+    image.src = q.image;
+    image.alt = q.question;
+    image.className = 'question-image';
+    questionImageWrap.appendChild(image);
+  }
+
   // Progress bar
   const pct = (idx / QUESTIONS.length) * 100;
   progressFill.style.width = pct + '%';
@@ -116,14 +128,14 @@ function handleAnswer(btn, selected, q) {
   if (isCorrect) {
     correctCount++;
     feedbackBar.className = 'feedback-bar correct-fb';
-    feedbackIcon.textContent = '�';
+    feedbackIcon.textContent = '🎉';
     feedbackMsg.textContent  = getPositiveFeedback();
     showToast('🌟 Correct! Excellent!');
   } else {
     heartsLeft--;
     updateHearts();
     feedbackBar.className = 'feedback-bar wrong-fb';
-    feedbackIcon.textContent = '🌱';
+    feedbackIcon.textContent = '💪';
     feedbackMsg.textContent  = `The correct answer is: "${q.answer}" — Keep going!`;
     showToast(`🌱 The correct answer is: ${q.answer}`);
   }

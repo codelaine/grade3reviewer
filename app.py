@@ -23,6 +23,8 @@ TOPICS = [
 
 QUESTIONS = load_json("questions.json")["questions"]
 
+MAX_QUESTIONS_PER_LESSON = 12
+
 
 def get_questions_for_topic(topic_id):
     """
@@ -89,7 +91,10 @@ def home():
         {
             **topic,
             "completed": topic["id"] in completed,
-            "question_count": len(get_questions_for_topic(topic["id"])),
+            "question_count": min(
+                len(get_questions_for_topic(topic["id"])), 
+                MAX_QUESTIONS_PER_LESSON
+            ),
         }
         for topic in TOPICS
     ]
@@ -127,7 +132,7 @@ def lesson(topic_id):
 
     all_questions = get_questions_for_topic(topic_id)
     random.shuffle(all_questions)
-    questions = all_questions[:15]
+    questions = all_questions[:MAX_QUESTIONS_PER_LESSON]
 
     return render_template(
         "lesson.html",

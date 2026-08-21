@@ -1,0 +1,185 @@
+I’ll collect every `image_identification` entry from `questions.json` and organize the results by topic, preserving the exact question, answer, and image path or URL.
+
+Searched for text `"type":"image_identification"` (`**/data/questions.json`), 41 results
+
+There are **41 `image_identification` questions**.
+
+### Makabansa-1
+
+1. **Question:** Alin sa mga sumusunod ang larawan ni Jose Rizal?  
+   **Answer:** Jose Rizal  
+   **Image:** `https://example.com/images/jose-rizal.jpg`
+
+### Science-1
+
+1. **Question:** Ana is using a ruler to find out how long her notebook is. What science process skill is she using?  
+   **Answer:** Measuring  
+   **Image:** `/static/images/measuring_ruler.jpg`
+
+2. **Question:** Look at the picture of dark, heavy clouds covering the sky. What is the best prediction you can make?  
+   **Answer:** It will rain soon.  
+   **Image:** `/static/images/dark_clouds.jpg`
+
+3. **Question:** Based on the picture of these animals (dog, cat, butterfly, bird), which group do the butterfly and bird belong to if you classify them by how they move?  
+   **Answer:** Animals that fly  
+   **Image:** `/static/images/animals_group.jpg`
+
+4. **Question:** Look at the water inside the measuring cup. What is the correct volume of the liquid?  
+   **Answer:** 150 mL  
+   **Image:** `/static/images/measuring_cup.jpg`
+
+5. **Question:** Look at the two leaves in the picture. Which statement is a correct comparison of their shapes?  
+   **Answer:** One leaf is round, and the other is long and pointed.  
+   **Image:** `/static/images/two_leaves_comparison.jpg`
+
+### Science-2
+
+1. **Question:** Look at the picture of a student using a ruler to check if their pencil can fit inside their school pencil case. What skill are they using?  
+   **Answer:** Measuring  
+   **Image:** `/static/images/ruler_pencil.jpg`
+
+2. **Question:** You see a picture of wet clothes hanging outside under a bright, hot sun. What is the best prediction you can make about the clothes?  
+   **Answer:** They will dry up quickly.  
+   **Image:** `/static/images/hanging_clothes.jpg`
+
+3. **Question:** Look at the picture of trash bins labeled “Biodegradable” and “Non-biodegradable”. What process skill does this everyday trash segregation show?  
+   **Answer:** Classifying  
+   **Image:** `/static/images/waste_segregation.jpg`
+
+4. **Question:** Look at the picture of a parent checking a sick child's body temperature using a digital thermometer. What skill does this tool help them perform?  
+   **Answer:** Measuring  
+   **Image:** `/static/images/fever_check.jpg`
+
+5. **Question:** Look at the picture of a student counting the coins inside their piggy bank to see how much money they saved. What basic skill are they using?  
+   **Answer:** Observing  
+   **Image:** `/static/images/counting_coins.jpg`
+
+### Science-3
+
+1. **Question:** Look at the picture of a window glass. Which property allows you to see clearly through it?  
+   **Answer:** Transparency  
+   **Image:** `/static/images/window_glass.jpg`
+
+2. **Question:** Look at the picture of a plastic raincoat. Why is plastic chosen to protect us during rainy days?  
+   **Answer:** It is waterproof  
+   **Image:** `/static/images/raincoat.jpg`
+
+3. **Question:** Look at the picture of a ceramic clay pot. What will happen if it accidentally falls onto a concrete floor?  
+   **Answer:** It will break into pieces  
+   **Image:** `/static/images/clay_pot.jpg`
+
+4. **Question:** Look at the picture of a steel hammer. Why is the head of the hammer made of solid iron or steel?  
+   **Answer:** To resist breaking when hitting nails  
+   **Image:** `/static/images/hammer.jpg`
+
+5. **Question:** Look at the picture of a sponge soaked in water. Which physical property allows it to hold a lot of liquid?  
+   **Answer:** It has tiny pores to absorb liquid  
+   **Image:** `/static/images/sponge_absorb.jpg`
+
+6. **Question:** Look at the picture of a colorful set of plastic blocks. How are these solid items classified or sorted?  
+   **Answer:** By their colors and shapes  
+   **Image:** `/static/images/plastic_blocks.jpg`
+
+### Science-4
+
+1. **Question:** Look at the picture of a melting candle. What causes the solid wax to turn into a liquid?  
+   **Answer:** Heat from the flame  
+   **Image:** `/static/images/melting_candle.jpg`
+
+2. **Question:** Look at the picture of a rusty iron nail. What caused this change in the material?  
+   **Answer:** Exposure to air and water  
+   **Image:** `/static/images/rusty_nail.jpg`
+
+3. **Question:** Look at the picture of wood logs burning in a campfire. What type of change is happening to the wood?  
+   **Answer:** It turns into ash and smoke  
+   **Image:** `/static/images/burning_wood.jpg`
+
+4. **Question:** Look at the picture of a crushed plastic bottle. What force was applied to cause this change in shape?  
+   **Answer:** Squeezing  
+   **Image:** `/static/images/crushed_bottle.jpg`
+
+5. **Question:** Look at the picture of a shattered glass tumbler. What behavior or property of the material caused it to break like this when dropped?  
+   **Answer:** Brittleness  
+   **Image:** `/static/images/broken_glass.jpg`
+
+6. **Question:** Look at the picture of a bent metal paperclip. What action caused this change in the wire's shape?  
+   **Answer:** Bending  
+   **Image:** `/static/images/bent_paperclip.jpg`
+
+### Science-5
+
+1. **Question:** Look at the picture of the outer part of the ear. What is the correct name for this fleshy structure that collects sound waves?  
+   **Answer:** Pinna  
+   **Image:** `/static/images/ear_pinna.jpg`
+
+2. **Question:** Look at the picture of the eye. What is the clear, protective layer that covers the front of the eye called?  
+   **Answer:** Cornea  
+   **Image:** `/static/images/eye_cornea.jpg`
+
+3. **Question:** Look at the picture of a person touching a soft teddy bear. Which layer of the skin contains the nerve endings that feel this soft texture?  
+   **Answer:** Dermis  
+   **Image:** `/static/images/skin_touch.jpg`
+
+4. **Question:** Look at the picture of the human tongue. Which area or flavor profile is detected when you taste table salt or potato chips?  
+   **Answer:** Salty  
+   **Image:** `/static/images/tongue_taste.jpg`
+
+5. **Question:** Look at the picture of a kid covering their ears near a loud truck. Which sense organ are they protecting from loud noises?  
+   **Answer:** Ears  
+   **Image:** `/static/images/protecting_ears.jpg`
+
+6. **Question:** Look at the picture of the nose structure. What is the name of the wall made of cartilage that separates your left and right nostrils?  
+   **Answer:** Nasal septum  
+   **Image:** `/static/images/nasal_septum.jpg`
+
+### Science-6
+
+1. **Question:** What colorful part of the plant is shown in the picture that attracts bees and butterflies?  
+   **Answer:** Flower  
+   **Image:** `/static/images/flower_part.jpg`
+
+2. **Question:** Look at the flat, green part of the plant in the picture. What is its name?  
+   **Answer:** Leaf  
+   **Image:** `/static/images/green_leaf.jpg`
+
+3. **Question:** Look at the picture of a cactus. What modified plant part serves as protection against thirsty animals?  
+   **Answer:** Thorns  
+   **Image:** `/static/images/cactus_thorns.jpg`
+
+4. **Question:** Look at the lines on the leaf blade in the picture. What are these structures that distribute water throughout the leaf called?  
+   **Answer:** Veins  
+   **Image:** `/static/images/leaf_veins.jpg`
+
+5. **Question:** Look at the picture of sweet potatoes (camote) growing underground. What plant part are these food-storing structures?  
+   **Answer:** Storage roots  
+   **Image:** `/static/images/sweet_potato_roots.jpg`
+
+6. **Question:** Look at a picture of a tomato cut in half. What are the small round structures scattered inside the juicy flesh?  
+   **Answer:** Seeds  
+   **Image:** `/static/images/tomato_seeds.jpg`
+
+### Science-7
+
+1. **Question:** Look at the picture of a wilting plant with dry, cracked soil. What basic need is this plant lacking?  
+   **Answer:** Water  
+   **Image:** `/static/images/dry_plant.jpg`
+
+2. **Question:** Look at the picture of a seedling growing inside a dark cardboard box with no windows. What basic need is missing?  
+   **Answer:** Light  
+   **Image:** `/static/images/dark_box_plant.jpg`
+
+3. **Question:** Look at the picture of a gardener mixing compost or fertilizer into the garden plot. What is being added to satisfy the plant's needs?  
+   **Answer:** Nutrients  
+   **Image:** `/static/images/compost_soil.jpg`
+
+4. **Question:** Look at the picture of weeds choking a small vegetable crop. Why is it important to pull out weeds from the garden?  
+   **Answer:** They steal water and nutrients from the main plant  
+   **Image:** `/static/images/weeds_garden.jpg`
+
+5. **Question:** Look at the picture of a potted plant leaning sideways out of a shady porch toward the open garden. What is it seeking?  
+   **Answer:** Sunlight  
+   **Image:** `/static/images/plant_leaning.jpg`
+
+6. **Question:** Look at the picture of healthy, green farm crop rows spaced neatly apart. Why did the farmer create these neat, empty lanes between the plants?  
+   **Answer:** To ensure every plant has enough space and soil to grow  
+   **Image:** `/static/images/spaced_crops.jpg`
